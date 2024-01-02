@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  int i = 10;
-  printf("hello world and %d", i);
+  int i;
+  for (i = 0; i < 10; i++) {
+    printf("i = %d\n", i);
+  }
+  printf("hello world");
   return 0;
 }
